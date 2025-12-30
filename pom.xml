@@ -41,6 +41,12 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!-- Jackson Databind - FOR JSON CONVERSION -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
