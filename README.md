@@ -2,7 +2,7 @@
 
 A comprehensive full-stack application for managing cars and tracking fuel consumption, built with Spring Boot (backend), Java Servlets, and a Command-Line Interface (CLI).
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 Car-fuel-Management-Assessment/
 ├── src/main/java/com/aem/carfuel/          # Backend (Spring Boot)
@@ -29,13 +29,13 @@ Car-fuel-Management-Assessment/
 └── README.md
 ```
 
-## 🚀 Prerequisites
+## Prerequisites
 
 - **Java 17** or higher
 - **Maven** (or use included Maven wrapper `./mvnw`)
 - **Port 8080** must be available
 
-## 📦 Installation & Running
+## Installation & Running
 
 ### **Backend (Spring Boot API)**
 
@@ -154,7 +154,7 @@ Avg Consumption:  12.14 L/100km
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### **REST API (Spring Boot)**
 
@@ -173,7 +173,7 @@ Avg Consumption:  12.14 L/100km
 
 ---
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 ### **1. Create a Car**
 **Request:**
@@ -289,7 +289,7 @@ private Map<String, FuelEntry> fuelEntryStorage = new HashMap<>();
 
 ---
 
-## 📊 Statistics Calculation
+## Statistics Calculation
 
 ### **Average Fuel Consumption Formula**
 ```
@@ -325,7 +325,7 @@ Average = (85 / 700) × 100 = 12.14 L/100km
 
 ---
 
-## 📝 Features Implemented
+## Features Implemented
 
 ### **Part 1: REST API (Spring Boot)**
 ✅ Create car  
@@ -352,7 +352,7 @@ Average = (85 / 700) × 100 = 12.14 L/100km
 
 ---
 
-## ❓ Troubleshooting
+## Troubleshooting
 
 ### **Port 8080 Already in Use**
 ```bash
